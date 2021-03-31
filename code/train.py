@@ -44,6 +44,5 @@ for fold, (train_ids, test_ids) in enumerate(kfold.split(dataset)):
                         batch_size=args.batch_size,
                         sampler=test_subsampler)
 
-    for 
 
 
